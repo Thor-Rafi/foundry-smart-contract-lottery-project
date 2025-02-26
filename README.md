@@ -10,7 +10,7 @@
 ## Quickstart
 
 ```
-git clone 
+git clone https://github.com/Thor-Rafi/foundry-smart-contract-lottery-project.git
 cd foundry-smart-contract-lottery-project
 forge build
 ```
