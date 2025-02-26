@@ -40,7 +40,7 @@ contract Raffle is VRFConsumerBaseV2Plus {
     error Raffle__TransferFailed();
     error Raffle__RaffleNotOpen();
     error Raffle__UpKeepNotNeeded(
-        uint256 balance,
+        uint256 currentBalance,
         uint256 playersLength,
         uint256 RaffleState
     );
